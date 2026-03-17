@@ -1,1 +1,14 @@
-{\n  "name": "manbag.com",\n  "version": "1.0.0",\n  "description": "Node.js dependencies for manbag.com",\n  "main": "index.js",\n  "scripts": {\n    "test": "echo 'Error: no test specified' && exit 1"\n  },\n  "dependencies": {\n    "express": "^4.17.1",\n    "body-parser": "^1.19.0",\n    "stripe": "^8.0.0"\n  }\n}
+{
+  "name": "manbag.com",
+  "version": "1.0.0",
+  "description": "Node.js dependencies for manbag.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "stripe": "^8.0.0"
+  }
+}
