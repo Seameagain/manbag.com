@@ -16,3 +16,6 @@ app.post("/webhook", (req, res) => {
 
 // สำคัญ: export app แทนการ listen เอง
 module.exports = app;
+app.get("/", (req, res) => {
+  res.send("manbag.com backend is running");
+});
